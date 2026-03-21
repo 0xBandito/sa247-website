@@ -177,7 +177,7 @@ function Hero() {
           transition: "all 0.9s ease 0.2s",
         }}>{COPY.hero.subheadline}</p>
         <div style={{
-          display: "flex", gap: "1rem", flexWrap: "wrap", marginBottom: "3rem",
+          display: "flex", gap: "1rem", flexWrap: "wrap", marginBottom: "10rem",
           opacity: visible ? 1 : 0, transform: visible ? "translateY(0)" : "translateY(30px)",
           transition: "all 0.9s ease 0.3s",
         }}>
@@ -201,7 +201,7 @@ function Hero() {
           >{COPY.hero.secondary}</button>
         </div>
         <div style={{
-          display: "inline-block", background: "rgba(0,255,136,0.06)",
+          display: "inline-block", background: "rgba(0,255,136,0.06)", marginBottom: "5rem",
           border: "1px solid rgba(0,255,136,0.15)", padding: "1.25rem 1.5rem",
           borderRadius: "4px", borderLeft: "3px solid #00FF88",
           opacity: visible ? 1 : 0, transition: "all 0.9s ease 0.4s",
