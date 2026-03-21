@@ -145,7 +145,7 @@ function Hero() {
           }} />
         ))}
       </div>
-      <div style={{ maxWidth: 900, padding: "8rem 2.5rem 6rem", position: "relative", zIndex: 1 }}>
+      <div style={{ maxWidth: 900, padding: "8rem 2.5rem 14rem", position: "relative", zIndex: 1 }}>
         <div style={{
           display: "inline-flex", alignItems: "center", gap: "0.75rem",
           background: "rgba(0,255,136,0.08)", border: "1px solid rgba(0,255,136,0.2)",
